@@ -1,0 +1,15 @@
+
+            header {
+                font-family: 'Arial', sans-serif;
+                /* Sets the font style */
+                font-size: 95px;
+                /* Sets the font size */
+                color: rgb(106, 50, 7);
+                /* Sets the font color */
+                text-align: center;
+                /* Justifies text alignment **/
+                font-weight: bolder;
+                /* Makes the font bold */
+                font-style: normal;
+                /* Makes the font normal */
+            }

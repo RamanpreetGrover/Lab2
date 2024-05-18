@@ -2,7 +2,7 @@
             header {
                 font-family: 'Arial', sans-serif;
                 /* Sets the font style */
-                font-size: 95px;
+                font-size: 50px;
                 /* Sets the font size */
                 color: rgb(106, 50, 7);
                 /* Sets the font color */
@@ -12,4 +12,116 @@
                 /* Makes the font bold */
                 font-style: normal;
                 /* Makes the font normal */
+            }
+            .Tittle {
+                display: flex; 
+                flex-direction: row;
+                justify-content:space-between;
+                align-items: center;
+                padding: 5px; 
+                background: rgb(54, 5, 5);
+            }
+            
+            .Tittle text { 
+              
+                background-color: rgb(0, 0, 0);
+                border: 1px solid #ddd;
+                padding: 20px;
+                margin: 10px;
+                font-size:xx-large;
+                text-align: center;
+                flex-grow: 1;
+            
+            }
+            
+            .navigation {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px;
+                background: rgb(0, 0, 0);
+            
+            }
+            
+            .text1 {
+                background-color: red;
+                border: 5px;
+                padding: 5px;
+                margin: 10px;
+                font-size: 30px;
+                text-align:center;
+                flex-grow: 1;
+            }
+            .text2 {
+                background-color: red;
+                border: 5px;
+                padding: 5px;
+                margin: 10px;
+                font-size: 30px;
+                text-align:center;
+                flex-grow: 1;
+            }
+            .text3 {
+                background-color: red;
+                border: 5px;
+                padding: 5px;
+                margin: 10px;
+                font-size: 30px;
+                text-align:center;
+                flex-grow: 1;
+            }
+            .main {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 5px;
+                background: blue;
+                align-items: baseline;
+                flex-wrap: wrap;
+                align-content: center;
+            
+            }
+            
+            .main1 {
+                background-color:white;
+                border: 5px;
+                padding: 5px;
+                margin:;
+                font-size: 20px;
+                text-align:start;
+                flex-grow: 1;
+            
+            }
+            .main2 {
+                background-color:white;
+                border: 5px;
+                padding: 5px;
+                margin: -10px;
+                font-size: 20px;
+                text-align:center;
+                flex-grow: 1;
+            }
+            .main3 {
+                background-color:white;
+                border: 5px;
+                padding: 5px;
+                margin: -10px;
+                font-size: 20px;
+                text-align:end;
+                flex-grow: 1;
+            }\
+            p {
+                font-family: 'Arial', sans-serif;
+                /* Sets the font style */
+                font-size: 45px;
+                /* Sets the font size */
+                color: rgb(255, 115, 0);
+                /* Sets the font color */
+                text-align: justify;
+                /* Justifies text alignment **/
+                font-weight: bold;
+                /* Makes the font bold */
+                font-style: italic;
+                /* Makes the font italic */
             }
